@@ -3,6 +3,8 @@
   "version": "0.0.0",
   "lockfileVersion": 3,
   "requires": true,
+  "predeploy": "npm run build",
+"deploy": "gh-pages -d dist",
   "packages": {
     "": {
       "name": "shoppingcart",
@@ -4805,5 +4807,8 @@
         "url": "https://github.com/sponsors/sindresorhus"
       }
     }
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
